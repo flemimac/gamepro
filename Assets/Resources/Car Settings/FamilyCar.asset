@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efae2a295ce8a4440bf3a2051ee3565c, type: 3}
+  m_Name: FamilyCar
+  m_EditorClassIdentifier: 
+  maxSpeed: 30
+  acceleration: 0.2
+  dodgeScore: 10
+  dodgeScore2: 0
+  renderCarPrefab: {fileID: 1106068356828452, guid: ce39a24be1fd5409b924a9db2a87c1bf,
+    type: 3}
+  renderCameraPos: {x: -0.98, y: 1.063135, z: 9.1}
+  renderCameraRot: {x: 0, y: 168, z: 0}
