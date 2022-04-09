@@ -11,10 +11,7 @@ namespace Game {
     
         public float acceleration;
 
-        [BoxGroup("Speed/Score")]
-        [ValidateInput(nameof(ValidateDodgeScore))]
         public int dodgeScore;
-        [BoxGroup("Speed/Score")]
         public int dodgeScore2;
 
         [BoxGroup("Render")]
@@ -25,9 +22,5 @@ namespace Game {
 
         [BoxGroup("Render")]
         public Vector3 renderCameraRot;
-
-        private bool ValidateDodgeScore(int score) {
-            return score >= 0;
-        }
     }
 }
