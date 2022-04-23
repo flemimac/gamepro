@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 7059cfdd72ab2b2418e78edd6f731cf7, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -337,12 +337,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 295848064049025938, guid: 40a6a2e1553fe46ca8287f31a659190a,
-        type: 3}
-      propertyPath: _hardGameMode
-      value: 
-      objectReference: {fileID: 11400000, guid: 1a01dd494975b42418743c2b4367670f,
-        type: 2}
     - target: {fileID: 295848064049025940, guid: 40a6a2e1553fe46ca8287f31a659190a,
         type: 3}
       propertyPath: m_Name
@@ -412,6 +406,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1788916356, guid: 812dd08923d481f4cb0959d16a4663bc, type: 3}
+      propertyPath: m_Radius
+      value: 1.3125248
+      objectReference: {fileID: 0}
+    - target: {fileID: 1788916356, guid: 812dd08923d481f4cb0959d16a4663bc, type: 3}
+      propertyPath: m_Center.x
+      value: 0.06696122
+      objectReference: {fileID: 0}
+    - target: {fileID: 1788916356, guid: 812dd08923d481f4cb0959d16a4663bc, type: 3}
+      propertyPath: m_Center.y
+      value: 0.5986549
+      objectReference: {fileID: 0}
+    - target: {fileID: 1788916356, guid: 812dd08923d481f4cb0959d16a4663bc, type: 3}
+      propertyPath: m_Height
+      value: 10.0286255
+      objectReference: {fileID: 0}
+    - target: {fileID: 1788916356, guid: 812dd08923d481f4cb0959d16a4663bc, type: 3}
+      propertyPath: m_Center.z
+      value: 4.267524
+      objectReference: {fileID: 0}
     - target: {fileID: 284724633387916620, guid: 812dd08923d481f4cb0959d16a4663bc,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -467,30 +481,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 284724633387916620, guid: 812dd08923d481f4cb0959d16a4663bc,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.7
-      objectReference: {fileID: 0}
-    - target: {fileID: 284724633387916620, guid: 812dd08923d481f4cb0959d16a4663bc,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.7
-      objectReference: {fileID: 0}
-    - target: {fileID: 284724633387916620, guid: 812dd08923d481f4cb0959d16a4663bc,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.7
-      objectReference: {fileID: 0}
     - target: {fileID: 628352372108920822, guid: 812dd08923d481f4cb0959d16a4663bc,
         type: 3}
       propertyPath: m_Name
       value: playerUnity_1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7586544668052740602, guid: 812dd08923d481f4cb0959d16a4663bc,
-        type: 3}
-      propertyPath: m_IsKinematic
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 812dd08923d481f4cb0959d16a4663bc, type: 3}
