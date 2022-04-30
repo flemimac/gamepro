@@ -337,6 +337,29 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 295848064049025938, guid: 40a6a2e1553fe46ca8287f31a659190a,
+        type: 3}
+      propertyPath: _carPrefabs.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 295848064049025938, guid: 40a6a2e1553fe46ca8287f31a659190a,
+        type: 3}
+      propertyPath: _carPrefabs.Array.data[0]
+      value: 
+      objectReference: {fileID: 2759137168064641447, guid: ff153ed54dda7004ea23e39cc7c542da,
+        type: 3}
+    - target: {fileID: 295848064049025938, guid: 40a6a2e1553fe46ca8287f31a659190a,
+        type: 3}
+      propertyPath: _carPrefabs.Array.data[2]
+      value: 
+      objectReference: {fileID: 2272124375118052900, guid: ceb412e0eaa30e04091ec45e65ad6319,
+        type: 3}
+    - target: {fileID: 295848064049025938, guid: 40a6a2e1553fe46ca8287f31a659190a,
+        type: 3}
+      propertyPath: _carPrefabs.Array.data[1]
+      value: 
+      objectReference: {fileID: 3528597899850647136, guid: 474d383d11652d94fb142840170277ad,
+        type: 3}
     - target: {fileID: 295848064049025940, guid: 40a6a2e1553fe46ca8287f31a659190a,
         type: 3}
       propertyPath: m_Name
@@ -485,6 +508,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: playerUnity_1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6081906553223511591, guid: 812dd08923d481f4cb0959d16a4663bc,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 52.28
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 812dd08923d481f4cb0959d16a4663bc, type: 3}

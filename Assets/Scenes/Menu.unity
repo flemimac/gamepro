@@ -1449,6 +1449,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1136397720}
     m_Modifications:
+    - target: {fileID: 154165605398428461, guid: 7dfad201b4a294995bbd570a7e35d091,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4006673344566528970, guid: 7dfad201b4a294995bbd570a7e35d091,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1569,9 +1574,19 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5155129050117062082, guid: 7dfad201b4a294995bbd570a7e35d091,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7636944217438852379, guid: 7dfad201b4a294995bbd570a7e35d091,
         type: 3}
       propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8597605189838246166, guid: 7dfad201b4a294995bbd570a7e35d091,
+        type: 3}
+      propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -1583,6 +1598,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1136397720}
     m_Modifications:
+    - target: {fileID: 757258308904955508, guid: 275f4427abc954b3087b6ff452d4d42d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2731100170488751929, guid: 275f4427abc954b3087b6ff452d4d42d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4015537190508561040, guid: 275f4427abc954b3087b6ff452d4d42d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4015537191052730604, guid: 275f4427abc954b3087b6ff452d4d42d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1694,6 +1724,11 @@ PrefabInstance:
       value: GameScreen
       objectReference: {fileID: 0}
     - target: {fileID: 4015537191052730605, guid: 275f4427abc954b3087b6ff452d4d42d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7786862664224858795, guid: 275f4427abc954b3087b6ff452d4d42d,
         type: 3}
       propertyPath: m_IsActive
       value: 0
