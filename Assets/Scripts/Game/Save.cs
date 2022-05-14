@@ -41,7 +41,7 @@ namespace Game {
         private SaveType _saveType;
 
         [SerializeField]
-        private int _maxRecords = 10;
+        private int _maxRecords = 5;
 
         [SerializeField]
         private EventListener _settingsChangeEventListener;
